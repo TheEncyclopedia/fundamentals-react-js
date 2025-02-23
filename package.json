@@ -8,6 +8,10 @@
     "backend/*"
   ],
   "scripts": {
+    "build": "turbo build",
+    "build:affected": "turbo build --affected",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
     "react-vite": "cd frontend/react-vite && pnpm run dev",
     "react-vite-tanstack": "cd frontend/react-vite-tanstack && pnpm run dev"
   },
