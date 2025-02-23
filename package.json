@@ -8,7 +8,8 @@
     "backend/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "react-vite": "cd frontend/react-vite && pnpm run dev",
+    "react-vite-tanstack": "cd frontend/react-vite-tanstack && pnpm run dev"
   },
   "keywords": [],
   "author": "",
